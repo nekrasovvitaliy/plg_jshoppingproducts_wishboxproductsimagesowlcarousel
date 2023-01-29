@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" group="jshoppingproducts" method="upgrade">
+	<name>plg_jshoppingproducts_wishboxproductsimagesowlcarousel</name>
+	<author>Vitaliy Nekrasov</author>
+	<creationDate>2022-11</creationDate>
+	<authorEmail>nekrasov_vitaliy@list.ru</authorEmail>
+	<version>1.0.0</version>
+	<description>PLG_JSHOPPINGPRODUCTS_WISHBOXPRODUCTSIMAGESOWLCAROUSEL_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\Jshoppingproducts\Wishboxproductsimagesowlcarousel</namespace>
+	<files>
+		<folder plugin="wishboxproductsimagesowlcarousel">jshoppingproducts</folder>
+		<folder>src</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/plg_jshoppingproducts_wishboxproductsimagesowlcarousel.ini</language>
+		<language tag="en-GB">language/en-GB/plg_jshoppingproducts_wishboxproductsimagesowlcarousel.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/plg_jshoppingproducts_wishboxproductsimagesowlcarousel.ini</language>
+		<language tag="ru-RU">language/ru-RU/plg_jshoppingproducts_wishboxproductsimagesowlcarousel.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="layout"
+					type="filelist"
+					class="inputbox"
+					default="default"
+					directory="/plugins/jshoppingproducts/wishboxproductsimagesowlcarousel/layouts"
+					hide_none="true"
+					stripext="true"
+					fileFilter="\.php$"
+					label="JGLOBAL_FIELD_LAYOUT_LABEL"
+					description="JGLOBAL_FIELD_LAYOUT_DESC"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
