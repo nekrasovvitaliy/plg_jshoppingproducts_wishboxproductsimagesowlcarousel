@@ -8,8 +8,10 @@
 	<description>PLG_JSHOPPINGPRODUCTS_WISHBOXPRODUCTSIMAGESOWLCAROUSEL_XML_DESCRIPTION</description>
 	<namespace path="src">Joomla\Plugin\Jshoppingproducts\Wishboxproductsimagesowlcarousel</namespace>
 	<files>
-		<folder plugin="wishboxproductsimagesowlcarousel">jshoppingproducts</folder>
+		<folder plugin="wishboxproductsimagesowlcarousel">services</folder>
 		<folder>src</folder>
+		<folder>layouts</folder>
+		<folder>owlcarousel</folder>
 	</files>
 	<languages>
 		<language tag="en-GB">language/en-GB/plg_jshoppingproducts_wishboxproductsimagesowlcarousel.ini</language>

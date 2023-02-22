@@ -2,9 +2,6 @@
 	/**
 	 * @package     Joomla.Plugins
 	 * @subpackage  Jshoppingproducts.Wishboxproductsimagesowlcarousel
-	 *
-	 * @copyright   (C) 2021 Open Source Matters, Inc. <https://www.joomla.org>
-	 * @license     GNU General Public License version 2 or later; see LICENSE.txt
 	 */
 
 	namespace Joomla\Plugin\Jshoppingproducts\Wishboxproductsimagesowlcarousel\Extension;
@@ -136,7 +133,7 @@
 					$parent_images = $product_table->getImages();
 					// 
 					// 
-					$view->images = array_merge($parent_images, $view->images);
+					$view->images = array_merge($view->images, $parent_images);
 				}
 			}
 		}
